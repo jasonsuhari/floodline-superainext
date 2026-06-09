@@ -5342,7 +5342,14 @@ textarea {
   position: fixed;
   inset: 0;
   z-index: 200;
-  background: rgba(0, 0, 0, 0.72);
+  --mx: 50%;
+  --my: 44%;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at var(--mx) var(--my), rgba(47, 100, 255, 0.32), transparent 24%),
+    radial-gradient(circle at calc(100% - var(--mx)) 18%, rgba(208, 32, 32, 0.22), transparent 30%),
+    rgba(0, 0, 0, 0.76);
   backdrop-filter: blur(10px) saturate(0.4);
   -webkit-backdrop-filter: blur(10px) saturate(0.4);
   display: flex;
@@ -5350,8 +5357,47 @@ textarea {
   justify-content: center;
 }
 
+.bh-overlay-backdrop::before,
+.bh-overlay-backdrop::after {
+  content: "";
+  position: absolute;
+  inset: -80px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.bh-overlay-backdrop::before {
+  opacity: 0.42;
+  background-image:
+    linear-gradient(rgba(240, 240, 240, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(240, 240, 240, 0.08) 1px, transparent 1px),
+    repeating-radial-gradient(circle at var(--mx) var(--my), transparent 0 48px, rgba(240, 192, 32, 0.14) 49px 50px, transparent 51px 96px);
+  background-size: 74px 74px, 74px 74px, auto;
+  animation: bh-overlay-grid-drift 12s linear infinite;
+}
+
+.bh-overlay-backdrop::after {
+  opacity: 0.36;
+  background:
+    linear-gradient(110deg, transparent 0 42%, rgba(240, 240, 240, 0.13) 48%, transparent 54%),
+    radial-gradient(circle at var(--mx) var(--my), rgba(240, 192, 32, 0.2), transparent 22%);
+  mix-blend-mode: screen;
+  animation: bh-overlay-scan 5.4s ease-in-out infinite alternate;
+}
+
+@keyframes bh-overlay-grid-drift {
+  from { transform: translate3d(-18px, -12px, 0); }
+  to   { transform: translate3d(18px, 12px, 0); }
+}
+
+@keyframes bh-overlay-scan {
+  from { transform: translate3d(-4%, -2%, 0); }
+  to   { transform: translate3d(4%, 2%, 0); }
+}
+
 .bh-overlay-dialog {
   position: relative;
+  z-index: 1;
   width: 90vw;
   height: 90vh;
   display: flex;

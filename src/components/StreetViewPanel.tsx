@@ -680,6 +680,11 @@ export default function StreetViewPanel({ location, billboards, onClose, onPlace
       {isExpanded && (
         <div
           className="bh-overlay-backdrop"
+          onPointerMove={(e) => {
+            const rect = e.currentTarget.getBoundingClientRect()
+            e.currentTarget.style.setProperty('--mx', `${((e.clientX - rect.left) / rect.width) * 100}%`)
+            e.currentTarget.style.setProperty('--my', `${((e.clientY - rect.top) / rect.height) * 100}%`)
+          }}
           onClick={(e) => {
             if (e.target === e.currentTarget) setIsExpanded(false)
           }}
