@@ -1,0 +1,40 @@
+{
+  "source_archive": "foot_data.zip",
+  "source_csv": "seattle.sample.daily.csv",
+  "curation": "Aggregated duplicate date+geography rows by summing activity_index_total.",
+  "raw_rows": 356719,
+  "clean_cell_day_rows": 324908,
+  "duplicate_rows_collapsed": 31811,
+  "exact_duplicate_rows": 40,
+  "unique_dates": 31,
+  "date_range": [
+    "2020-01-01",
+    "2020-01-31"
+  ],
+  "unique_geographies": 23027,
+  "missing_values": {},
+  "invalid_values": {},
+  "lat_range": [
+    47.54177,
+    47.69081
+  ],
+  "lon_range": [
+    -122.39388,
+    -122.16591
+  ],
+  "activity_index_total_after_aggregation": {
+    "min": 1e-06,
+    "p05": 0.00710935,
+    "median": 0.0584645,
+    "p95": 0.4970131000000004,
+    "max": 1.939668,
+    "mean": 0.1308908080810576
+  },
+  "outputs": [
+    "data/foot-traffic/seattle_daily_cell_activity_clean.csv.gz",
+    "data/foot-traffic/seattle_daily_summary.csv",
+    "data/foot-traffic/seattle_cell_summary.csv",
+    "data/foot-traffic/seattle_foot_traffic_profile.json",
+    "data/foot-traffic/README.md"
+  ]
+}

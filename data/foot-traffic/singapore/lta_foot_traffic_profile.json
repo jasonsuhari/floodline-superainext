@@ -1,0 +1,26 @@
+{
+  "built_at": "2026-05-06T19:56:03.728Z",
+  "started_at": "2026-05-06T19:56:01.829Z",
+  "source": "LTA DataMall",
+  "datasets": [
+    "BusStops",
+    "PV/Bus"
+  ],
+  "year_month": "2026-03",
+  "bus_stops_fetched": 5201,
+  "activity_records": 202655,
+  "matched_bus_stops": 5193,
+  "unmatched_pt_codes": 4,
+  "volume": {
+    "total": 237864840,
+    "max_stop_total": 3376973,
+    "p95_stop_total": 141833.59999999992
+  },
+  "outputs": [
+    "data/foot-traffic/singapore/lta_bus_stop_activity.csv.gz",
+    "data/foot-traffic/singapore/lta_bus_stop_summary.csv",
+    "data/foot-traffic/singapore/lta_bus_stop_activity_points.json",
+    "data/foot-traffic/singapore/lta_foot_traffic_profile.json",
+    "data/foot-traffic/singapore/README.md"
+  ]
+}
