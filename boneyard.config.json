@@ -1,0 +1,14 @@
+{
+  "breakpoints": [390, 820, 1440],
+  "out": "./src/app/bones",
+  "skeletons": {
+    "landing-map-preview": {
+      "route": "/"
+    }
+  },
+  "wait": 1200,
+  "animate": "shimmer",
+  "color": "rgba(42, 45, 58, 0.86)",
+  "shimmerColor": "rgba(208, 32, 32, 0.20)",
+  "transition": 300
+}
