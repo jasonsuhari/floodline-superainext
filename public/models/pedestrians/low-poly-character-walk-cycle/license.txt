@@ -1,0 +1,11 @@
+Model Information:
+* title:	low poly character walk cycle
+* source:	https://sketchfab.com/3d-models/low-poly-character-walk-cycle-b6ce411496384196a1dc159cc4c2a80a
+* author:	crisix8819 (https://sketchfab.com/Cristobal_Fermandois)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "low poly character walk cycle" (https://sketchfab.com/3d-models/low-poly-character-walk-cycle-b6ce411496384196a1dc159cc4c2a80a) by crisix8819 (https://sketchfab.com/Cristobal_Fermandois) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
