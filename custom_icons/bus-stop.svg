@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1500">
+  <!-- Sign panel outer -->
+  <rect x="250" y="80" width="1000" height="600" rx="70" fill="#ffffff"/>
+  <!-- Bus body: rounded rectangle (slightly inset, cut via path union logic —
+       since all white on transparent bg, we draw bus silhouette as thick stroke shape using path) -->
+  <!-- Bus silhouette as a path: body + windshield bump -->
+  <path d="M380,420 L380,280 Q380,220 440,220 L1060,220 Q1120,220 1120,280 L1120,420 Q1120,460 1080,460 L420,460 Q380,460 380,420 Z" fill="#ffffff"/>
+  <!-- Left wheel -->
+  <circle cx="490" cy="480" r="75" fill="#ffffff"/>
+  <!-- Right wheel -->
+  <circle cx="1010" cy="480" r="75" fill="#ffffff"/>
+  <!-- Windows on bus: 3 windows represented as negative-space rectangles.
+       Since background is transparent we instead represent windows as a separate row
+       of rounded rects in a contrasting technique — skip for pure white fill requirement -->
+  <!-- Pole -->
+  <rect x="700" y="680" width="100" height="760" fill="#ffffff"/>
+  <!-- Anchor tip -->
+  <polygon points="700,1440 800,1440 750,1500" fill="#ffffff"/>
+</svg>

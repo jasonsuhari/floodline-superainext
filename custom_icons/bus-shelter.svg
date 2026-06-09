@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1500">
+  <!-- Roof: wide thick horizontal rectangle -->
+  <rect x="100" y="180" width="1300" height="120" rx="24" fill="#ffffff"/>
+  <!-- Left post -->
+  <rect x="130" y="300" width="110" height="760" fill="#ffffff"/>
+  <!-- Right post -->
+  <rect x="1260" y="300" width="110" height="760" fill="#ffffff"/>
+  <!-- Back wall ad panel (large filled rect) -->
+  <rect x="280" y="320" width="960" height="600" rx="20" fill="#ffffff"/>
+  <!-- Bench seat (horizontal bar) -->
+  <rect x="180" y="960" width="960" height="90" rx="20" fill="#ffffff"/>
+  <!-- Bench left leg -->
+  <rect x="260" y="1050" width="80" height="130" fill="#ffffff"/>
+  <!-- Bench right leg -->
+  <rect x="980" y="1050" width="80" height="130" fill="#ffffff"/>
+  <!-- Ground anchor pole -->
+  <rect x="700" y="1180" width="100" height="260" fill="#ffffff"/>
+  <polygon points="700,1440 800,1440 750,1500" fill="#ffffff"/>
+</svg>

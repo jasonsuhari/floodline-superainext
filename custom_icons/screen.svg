@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1500">
+  <!-- Monitor bezel: wide rounded rectangle -->
+  <rect x="80" y="120" width="1340" height="880" rx="80" fill="#ffffff"/>
+  <!-- Screen inner area cutout (compound path) -->
+  <path d="
+    M80,120 L1420,120 Q1500,120 1500,200 L1500,920 Q1500,1000 1420,1000 L80,1000 Q0,1000 0,920 L0,200 Q0,120 80,120 Z
+    M140,200 L140,940 L1360,940 L1360,200 Z
+  " fill-rule="evenodd" fill="#ffffff"/>
+  <!-- Pixel dot grid suggestion (3x3 grid of small dots inside screen area) -->
+  <circle cx="480" cy="420" r="36" fill="#ffffff"/>
+  <circle cx="750" cy="420" r="36" fill="#ffffff"/>
+  <circle cx="1020" cy="420" r="36" fill="#ffffff"/>
+  <circle cx="480" cy="640" r="36" fill="#ffffff"/>
+  <circle cx="750" cy="640" r="36" fill="#ffffff"/>
+  <circle cx="1020" cy="640" r="36" fill="#ffffff"/>
+  <circle cx="480" cy="860" r="36" fill="#ffffff"/>
+  <circle cx="750" cy="860" r="36" fill="#ffffff"/>
+  <circle cx="1020" cy="860" r="36" fill="#ffffff"/>
+  <!-- Stand neck -->
+  <rect x="660" y="1000" width="180" height="200" rx="20" fill="#ffffff"/>
+  <!-- Base -->
+  <rect x="380" y="1180" width="740" height="100" rx="40" fill="#ffffff"/>
+  <!-- Anchor pole -->
+  <rect x="705" y="1280" width="90" height="150" fill="#ffffff"/>
+  <polygon points="700,1430 800,1430 750,1500" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1500">
+  <!-- MRT train car: wide rounded rectangle body with 3 window cutouts -->
+  <path d="
+    M120,240 L1380,240 Q1460,240 1460,320 L1460,940 Q1460,1020 1380,1020 L120,1020 Q40,1020 40,940 L40,320 Q40,240 120,240 Z
+    M160,400 L160,760 Q160,800 200,800 L440,800 Q480,800 480,760 L480,400 Q480,360 440,360 L200,360 Q160,360 160,400 Z
+    M540,400 L540,760 Q540,800 580,800 L920,800 Q960,800 960,760 L960,400 Q960,360 920,360 L580,360 Q540,360 540,400 Z
+    M1020,400 L1020,760 Q1020,800 1060,800 L1300,800 Q1340,800 1340,760 L1340,400 Q1340,360 1300,360 L1060,360 Q1020,360 1020,400 Z
+  " fill-rule="evenodd" fill="#ffffff"/>
+  <!-- Left wheel -->
+  <circle cx="280" cy="1090" r="130" fill="#ffffff"/>
+  <!-- Right wheel -->
+  <circle cx="1220" cy="1090" r="130" fill="#ffffff"/>
+  <!-- Undercarriage bar -->
+  <rect x="340" y="1010" width="820" height="70" fill="#ffffff"/>
+  <!-- Anchor pole -->
+  <rect x="700" y="1220" width="100" height="210" fill="#ffffff"/>
+  <polygon points="700,1430 800,1430 750,1500" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1500">
+  <!-- Advertising column/pillar -->
+  <!-- Top ellipse cap -->
+  <ellipse cx="750" cy="240" rx="440" ry="100" fill="#ffffff"/>
+  <!-- Column body (tall rectangle) -->
+  <rect x="310" y="240" width="880" height="860" fill="#ffffff"/>
+  <!-- Thick horizontal band (ad panel wrap) across middle -->
+  <!-- Use compound path to make the band stand out: draw two inset rects as visual bands -->
+  <!-- Top band line -->
+  <rect x="310" y="500" width="880" height="60" fill="#ffffff"/>
+  <!-- Bottom band line -->
+  <rect x="310" y="820" width="880" height="60" fill="#ffffff"/>
+  <!-- Bottom ellipse base (wider for stability) -->
+  <ellipse cx="750" cy="1100" rx="480" ry="110" fill="#ffffff"/>
+  <!-- Base platform -->
+  <rect x="560" y="1180" width="380" height="80" rx="20" fill="#ffffff"/>
+  <!-- Anchor pole -->
+  <rect x="705" y="1260" width="90" height="170" fill="#ffffff"/>
+  <polygon points="700,1430 800,1430 750,1500" fill="#ffffff"/>
+</svg>

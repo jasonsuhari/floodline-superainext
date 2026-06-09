@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1500">
+  <!-- Classic location pin silhouette: teardrop shape -->
+  <!-- Outer teardrop (circle top + pointed tail) -->
+  <path d="
+    M750,60
+    C990,60 1200,270 1200,510
+    C1200,730 1050,910 860,980
+    L750,1180
+    L640,980
+    C450,910 300,730 300,510
+    C300,270 510,60 750,60 Z
+  " fill="#ffffff"/>
+  <!-- Inner circle hole using evenodd fill rule -->
+  <path d="
+    M750,60
+    C990,60 1200,270 1200,510
+    C1200,730 1050,910 860,980
+    L750,1180
+    L640,980
+    C450,910 300,730 300,510
+    C300,270 510,60 750,60 Z
+    M750,310
+    C890,310 1000,420 1000,560
+    C1000,700 890,810 750,810
+    C610,810 500,700 500,560
+    C500,420 610,310 750,310 Z
+  " fill-rule="evenodd" fill="#ffffff"/>
+</svg>
